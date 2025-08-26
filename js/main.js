@@ -59,7 +59,8 @@ function makeHistoryCard(title, hotline) {
 hotlineContainer.addEventListener("click", (e) => {
   const target = e.target;
   const card = e.target.closest(".card");
-  const serviceTitle = card.children[1].children[0].children[0].textContent;
+  const serviceTitle =
+    card.children[1].children[0].children[0].textContent.trim();
   const hotlineNumber = card.children[1].children[1].children[0].textContent;
   const heartBtn = target.className.includes("card-heart");
   const copyBtn = target.closest(".copy-btn");
