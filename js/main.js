@@ -29,7 +29,9 @@ function reduceCoin() {
   const coinEl = getEl("#nav-coin");
   const coin = strToNum(coinEl);
   if (coin < 20) {
-    alertFunc("❌ You have less than 20 coins, you will not be able to call.");
+    alertFunc(
+      "❌ আপনার ২০টির থেকে কম কয়েন রয়েছে। কল করার জন্য সর্বনিম্ন ২০টি কয়েন লাগবে!"
+    );
     return false;
   } else {
     coinEl.textContent = coin - 20;
@@ -73,7 +75,7 @@ hotlineContainer.addEventListener("click", (e) => {
   if (copyBtn) {
     const heartEl = getEl("#nav-copy");
     addCount(heartEl);
-    alertFunc("✅ Hotline Number Copied");
+    alertFunc("✅ হটলাইন নম্বর কপি করা হয়েছে");
     navigator.clipboard.writeText(hotlineNumber);
   }
   if (callBtn) {
