@@ -58,7 +58,7 @@
               class="flex items-center gap-2.5 py-3 px-7 rounded-[50px] bg-[#41ff6b1a]"
             >
               <span id="nav-heart" class="font-['Inter'] text-xl font-black"
-                >100</span
+                >0</span
               >
               <img src="./assets/heart.png" class="size-7" alt="" />
             </div>
@@ -108,7 +108,7 @@
         <!-- Hotline Area Starts Here -->
         <section class="col-span-9">
           <!-- Hotline Card Container -->
-          <div class="grid grid-cols-3 gap-3">
+          <div id="hotline-container" class="grid grid-cols-3 gap-3">
             <!-- Card - 1 -->
             <div
               class="bg-white shadow-sm shadow-[#00000026] p-8 rounded-xl flex flex-col gap-5"
@@ -117,7 +117,9 @@
                 <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                   <img src="./assets/emergency.png" class="size-8" alt="" />
                 </div>
-                <i class="fa-regular fa-heart text-2xl text-[#5C5C5C]"></i>
+                <i
+                  class="fa-regular fa-heart text-2xl text-[#5C5C5C] card-heart"
+                ></i>
               </div>
               <div class="flex flex-col gap-4">
                 <div>
@@ -139,13 +141,13 @@
               <div class="flex justify-center items-center gap-4">
                 <button
                   type="button"
-                  class="btn w-1/2 bg-transparent text-[#5C5C5C] text-base font-['Roboto']"
+                  class="copy-btn btn w-1/2 bg-transparent text-[#5C5C5C] text-base font-['Roboto']"
                 >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   type="button"
-                  class="btn w-1/2 bg-[#00A63E] text-base font-['Roboto'] border-none text-white"
+                  class="call-btn btn w-1/2 bg-[#00A63E] text-base font-['Roboto'] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -160,7 +162,9 @@
                 <div class="p-3 bg-[#DFEFFF] rounded-2xl">
                   <img src="./assets/police.png" class="size-8" alt="" />
                 </div>
-                <i class="fa-regular fa-heart text-2xl text-[#5C5C5C]"></i>
+                <i
+                  class="fa-regular fa-heart text-2xl text-[#5C5C5C] card-heart"
+                ></i>
               </div>
               <div class="flex flex-col gap-4">
                 <div>
@@ -178,13 +182,13 @@
               <div class="flex justify-center items-center gap-4">
                 <button
                   type="button"
-                  class="btn w-1/2 bg-transparent text-[#5C5C5C] text-base font-['Roboto']"
+                  class="copy-btn btn w-1/2 bg-transparent text-[#5C5C5C] text-base font-['Roboto']"
                 >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   type="button"
-                  class="btn w-1/2 bg-[#00A63E] text-base font-['Roboto'] border-none text-white"
+                  class="call-btn btn w-1/2 bg-[#00A63E] text-base font-['Roboto'] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -199,7 +203,9 @@
                 <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                   <img src="./assets/emergency.png" class="size-8" alt="" />
                 </div>
-                <i class="fa-regular fa-heart text-2xl text-[#5C5C5C]"></i>
+                <i
+                  class="fa-regular fa-heart text-2xl text-[#5C5C5C] card-heart"
+                ></i>
               </div>
               <div class="flex flex-col gap-4">
                 <div>
@@ -221,13 +227,13 @@
               <div class="flex justify-center items-center gap-4">
                 <button
                   type="button"
-                  class="btn w-1/2 bg-transparent text-[#5C5C5C] text-base font-['Roboto']"
+                  class="copy-btn btn w-1/2 bg-transparent text-[#5C5C5C] text-base font-['Roboto']"
                 >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   type="button"
-                  class="btn w-1/2 bg-[#00A63E] text-base font-['Roboto'] border-none text-white"
+                  class="call-btn btn w-1/2 bg-[#00A63E] text-base font-['Roboto'] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -269,5 +275,8 @@
         </aside>
       </section>
     </main>
+
+    <!-- Script -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
