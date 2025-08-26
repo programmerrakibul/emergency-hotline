@@ -10,6 +10,7 @@
       href="./assets/logo-dark.png"
       type="image/x-icon"
     />
+
     <!-- Font Awesome CDN -->
     <link
       rel="stylesheet"
@@ -116,13 +117,16 @@
     </header>
 
     <!-- Main Contents -->
-    <main class="mt-16" hidden>
+    <main class="mt-16">
       <!-- Service Area -->
       <section class="container mx-auto px-4 grid grid-cols-12 gap-4">
         <!-- Hotline Area Starts Here -->
-        <section class="col-span-9">
+        <section class="md:col-span-7 lg:col-span-8 xl:col-span-9 col-span-12">
           <!-- Hotline Card Container -->
-          <div id="hotline-container" class="grid grid-cols-3 gap-3">
+          <div
+            id="hotline-container"
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3"
+          >
             <!-- Card - 1 -->
             <div
               class="card bg-white shadow-sm shadow-[#00000026] p-8 rounded-xl flex flex-col gap-5"
@@ -258,7 +262,7 @@
 
         <!-- History Area Starts Here -->
         <aside
-          class="col-span-3 bg-white p-5 rounded-xl shadow-sm shadow-[#00000026]"
+          class="lg:col-span-4 md:col-span-5 xl:col-span-3 bg-white p-5 rounded-xl shadow-sm shadow-[#00000026]"
         >
           <!-- Heading -->
           <div class="flex justify-between items-center my-4">
