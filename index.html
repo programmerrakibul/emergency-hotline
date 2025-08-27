@@ -59,14 +59,14 @@
           </div>
 
           <!-- Navbar Right Side -->
-          <div class="flex items-center gap-3">
+          <div class="flex items-center gap-1 sm:gap-3">
             <!-- Life -->
             <div
-              class="flex items-center gap-2.5 py-3 px-4 sm:px-7 rounded-[50px] bg-[#41ff6b1a]"
+              class="flex items-center gap-1.5 sm:gap-2.5 py-3 px-4 sm:px-7 rounded-[50px] bg-[#41ff6b1a]"
             >
               <span
                 id="nav-heart"
-                class="font-['Inter'] text-lg md:text-xl font-black"
+                class="font-['Inter'] text-lg md:text-xl font-semibold md:font-black"
                 >0</span
               >
               <img src="./assets/heart.png" class="size-7" alt="" />
@@ -74,11 +74,11 @@
 
             <!-- Coin -->
             <div
-              class="flex items-center gap-2.5 py-3 px-4 sm:px-7 rounded-[50px] bg-[#41ff6b1a]"
+              class="flex items-center gap-1.5 sm:gap-2.5 py-3 px-4 sm:px-7 rounded-[50px] bg-[#41ff6b1a]"
             >
               <span
                 id="nav-coin"
-                class="font-['Inter'] text-lg md:text-xl font-black"
+                class="font-['Inter'] text-lg md:text-xl font-semibold md:font-black"
                 >100</span
               >
               <img src="./assets/coin.png" class="size-6" alt="" />
@@ -86,7 +86,7 @@
 
             <!-- Copy -->
             <div
-              class="sm:flex items-center gap-2.5 py-3 px-7 rounded-[50px] bg-[#00A63E] text-white font-['Inter'] text-xl font-semibold hidden"
+              class="flex items-center gap-1.5 sm:gap-2.5 py-3 px-4 sm:px-7 rounded-[50px] bg-[#00A63E] text-white font-['Inter'] text-lg md:text-xl sm:font-semibold"
             >
               <span id="nav-copy">0</span>
               <span>Copy</span>
@@ -121,7 +121,9 @@
       <!-- Service Area -->
       <section class="container mx-auto px-4 grid grid-cols-12 gap-4">
         <!-- Hotline Area Starts Here -->
-        <section class="md:col-span-7 lg:col-span-8 xl:col-span-9 col-span-12">
+        <section
+          class="md:col-span-7 lg:col-span-8 xl:col-span-9 col-span-12 order-2 md:order-1"
+        >
           <!-- Hotline Card Container -->
           <div
             id="hotline-container"
@@ -262,7 +264,7 @@
 
         <!-- History Area Starts Here -->
         <aside
-          class="lg:col-span-4 md:col-span-5 xl:col-span-3 bg-white p-5 rounded-xl shadow-sm shadow-[#00000026]"
+          class="col-span-12 md:col-span-5 xl:col-span-3 lg:col-span-4 bg-white p-5 rounded-xl shadow-sm shadow-[#00000026] h-fit order-1 md:order-2"
         >
           <!-- Heading -->
           <div class="flex justify-between items-center my-4">
