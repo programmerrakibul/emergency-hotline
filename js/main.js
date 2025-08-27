@@ -76,7 +76,7 @@ hotlineContainer.addEventListener("click", (e) => {
   if (copyBtn) {
     const heartEl = getEl("#nav-copy");
     addCount(heartEl);
-    alertFunc("✅ হটলাইন নম্বর কপি করা হয়েছে");
+    alertFunc(`✅ ${serviceTitle} হটলাইন নম্বর কপি করা হয়েছে`);
     navigator.clipboard.writeText(hotlineNumber);
   }
   if (callBtn) {
