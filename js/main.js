@@ -63,7 +63,8 @@ hotlineContainer.addEventListener("click", (e) => {
   const card = e.target.closest(".card");
   const serviceTitle =
     card.children[1].children[0].children[0].textContent.trim();
-  const hotlineNumber = card.children[1].children[1].children[0].textContent;
+  const hotlineNumber =
+    card.children[1].children[1].children[0].textContent.trim();
   const heartBtn = target.className.includes("card-heart");
   const copyBtn = target.closest(".copy-btn");
   const callBtn = target.closest(".call-btn");
