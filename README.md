@@ -12,7 +12,7 @@
 
 ## 2. How do you create and insert a new element into the DOM?
 
-- document.createElement(), this function creates an element.
+- document.createElement(), this method creates an element.
 
 - First I have to declare a const/let variable and store
   document.createElement(elementName).
@@ -20,8 +20,9 @@
 - Then I need to get the element wherever I want to implement that element and
   store it into a variable.
 
-- element.append(), this function add an element into an element. Lastly I have
-  to append that created element into an element.
+- element.append() is a modern JavaScript method used to insert content—like
+  other elements or text—into a parent DOM element. Lastly I have to append that
+  created element into an element.
 
 ## 3. What is Event Bubbling and how does it work?
 
