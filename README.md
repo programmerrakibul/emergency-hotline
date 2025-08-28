@@ -1,4 +1,4 @@
-# Assigment - 05 QnA
+# Assingment - 05 QnA
 
 ## 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
