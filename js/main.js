@@ -46,7 +46,7 @@ function makeHistoryCard(title, hotline) {
               class="p-4 rounded-lg bg-[#FAFAFA] flex justify-between items-center gap-1.5 shadow-sm shadow-[#00000026]"
             >
               <div>
-                <h4>${title}</h4>
+                <h4 class="text-lg lg:font-medium">${title}</h4>
                 <span class="text-[#5C5C5C]">${hotline}</span>
               </div>
               <span>${time}</span>
